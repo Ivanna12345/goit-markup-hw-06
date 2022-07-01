@@ -921,6 +921,9 @@ cursor: pointer;
 
 }
 
+.modal-close-btn:hover svg {
+  fill: var(--activecolor);
+}
 
 .modal-title {
 margin-top: 0px;
@@ -937,6 +940,10 @@ color: var(--secondtextcolor);
 
 .form-item:last-of-type {
  margin-bottom: 20px;
+ }
+
+ .form-item{
+  margin-bottom: 20px;
  }
 
 
